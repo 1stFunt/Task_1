@@ -27,3 +27,4 @@
    ```bash
    npm test
    ```
+Тестим CI/CD...
