@@ -29,7 +29,7 @@ function generateFloor(length, snakeFromLeft) {
   return line;
 }
 
-/// Основная функция генерации ёлки с проверкой floors
+// Основная функция генерации ёлки с проверкой floors
 function generateTree(floors) {
   // Проверка входного параметра floors
   if (typeof floors !== 'number' || isNaN(floors) || floors < 0 || floors > 100) {
