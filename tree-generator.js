@@ -58,11 +58,4 @@ function generateTree(floors) {
   return centerLines(lines);
 }
 
-// Функция записи массива строк с ёлкой в файл
-function saveTreeToFile(lines, outputFile) {
-  const outputText = lines.join('\n');
-  fs.writeFileSync(outputFile, outputText, 'utf-8');
-  console.log(`Ёлка сохранена в файле ${outputFile}`);
-}
-
-module.exports = { generateTree, saveTreeToFile };
+module.exports = { generateTree };
